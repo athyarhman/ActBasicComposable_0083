@@ -39,3 +39,9 @@ color = Color.Blue,
 fontSize = 32.sp,
 fontWeight = FontWeight.Bold
 )
+
+Text(
+text = "Ini adalah halaman login,",
+color = Color.White,
+fontSize = 16.sp
+)
