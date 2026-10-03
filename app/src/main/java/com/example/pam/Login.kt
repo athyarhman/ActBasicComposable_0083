@@ -32,3 +32,10 @@ verticalArrangement = Arrangement.SpaceBetween
 ) {
     // Content sections
 }
+
+Text(
+text = "Login",
+color = Color.Blue,
+fontSize = 32.sp,
+fontWeight = FontWeight.Bold
+)
