@@ -51,3 +51,16 @@ painter = painterResource(id = R.drawable.logo_umy),
 contentDescription = "Logo UMY",
 modifier = Modifier.size(140.dp)
 )
+
+Text(
+text = "Nama",
+color = Color.Red,
+fontSize = 20.sp,
+fontWeight = FontWeight.Bold
+)
+Text(
+text = "Pascal Pahlevi Pasha",
+color = Color.Blue,
+fontSize = 22.sp,
+fontWeight = FontWeight.Bold
+)
