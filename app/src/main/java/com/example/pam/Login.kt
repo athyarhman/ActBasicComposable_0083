@@ -1,12 +1,24 @@
-package com.example.loginapp
+package com.example.pam
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 
 @Composable
 fun LoginScreen() {
-    Box(modifier = Modifier.fillMaxSize()) {
-        // Main layout container
+    Box(
+        modifier = Modifier.fillMaxSize()
+    ) {
+        // Gambar background ditaruh di DALAM fungsi Box
+        Image(
+            painter = painterResource(id = R.drawable.background),
+            contentDescription = "Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
     }
 }
