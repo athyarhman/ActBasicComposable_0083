@@ -45,3 +45,9 @@ text = "Ini adalah halaman login,",
 color = Color.White,
 fontSize = 16.sp
 )
+
+Image(
+painter = painterResource(id = R.drawable.logo_umy),
+contentDescription = "Logo UMY",
+modifier = Modifier.size(140.dp)
+)
