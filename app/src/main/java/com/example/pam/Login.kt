@@ -22,3 +22,13 @@ fun LoginScreen() {
         )
     }
 }
+
+Column(
+modifier = Modifier
+.fillMaxSize()
+.padding(top = 40.dp, bottom = 24.dp),
+horizontalAlignment = Alignment.CenterHorizontally,
+verticalArrangement = Arrangement.SpaceBetween
+) {
+    // Content sections
+}
