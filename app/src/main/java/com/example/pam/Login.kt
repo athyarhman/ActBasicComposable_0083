@@ -98,16 +98,6 @@ fun LoginScreen() {
                 )
             }
 
-            // Section Bawah: Foto Melingkar
-            Image(
-                painter = painterResource(id = R.drawable.background), // Ganti dengan R.drawable.nama_foto jika ada foto kabah terpisah
-                contentDescription = "Foto Ka'bah",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier
-                    .size(260.dp)
-                    .clip(CircleShape)
-                    .border(4.dp, Color.White, CircleShape)
-            )
         }
     }
 }
