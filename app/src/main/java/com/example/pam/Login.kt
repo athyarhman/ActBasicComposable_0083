@@ -64,3 +64,10 @@ color = Color.Blue,
 fontSize = 22.sp,
 fontWeight = FontWeight.Bold
 )
+
+Text(
+text = "20000140001",
+color = Color.Black,
+fontSize = 24.sp,
+fontWeight = FontWeight.Bold
+)
